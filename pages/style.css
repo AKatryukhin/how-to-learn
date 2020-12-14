@@ -3,63 +3,16 @@
 @import url(../blocks/header/header.css);
 @import url(../blocks/header/__title/header__title.css);
 @import url(../blocks/header/__subtitle/header__subtitle.css);
+@import url(../blocks/header/__main-illustration/header__main-illustration.css);
+@import url(../blocks/header/__square-pic/header__square-pic.css);
+@import url(../blocks/logo/logo.css);
+@import url(../blocks/logo/_place/logo_place_header.css);
+@import url(../blocks/logo/_place/logo_place_footer.css);
 
 
 
 
 
-
-
- /* выше установили ограничения для секции */
-}
-
-
-
-
-
-.header__link {
-  color: #2f80ed;
-  text-decoration: none;
-}
-
-.header__main-illustration {
-  width: 765px;
-  height: 608px;
-  position: absolute;
-  bottom: 0;
-  right: 0;
-}
-
-.header__square-pic {
-  height: 568px;
-  width: 568px;
-  background-color: #2f80ed;
-  position: absolute;
-  right: 0;
-  top: 64px;
-  z-index: -1;
-  }
-
-.logo {
-  width: 183px;
-  z-index: 1;
-  }
-
-.logo_place_header {
-  background-image: url(../images/logo_place_header.svg);
-  background-repeat: no-repeat;
-  position: absolute;
-  left: 64px;
-  top: 30px;
-  height: 32px;
-  }
-
-.logo_place_footer {
-  display: flex;
-  height: 35px;
-  background-image: url(../images/logo_place_footer.svg);
-  background-repeat: no-repeat;
-  }
 
 .description {
   margin-top: 100px;
