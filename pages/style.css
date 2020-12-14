@@ -12,8 +12,6 @@
 
 
 
-
-
 .description {
   margin-top: 100px;
   display: flex;
@@ -265,7 +263,10 @@ font-weight: normal;
   margin-right: 10px;
 }
 
+a {
+transition: opacity 0.5s linear;
+}
 a:hover {
-  color: #0f0;
+  opacity: 0.5;
 }
 
