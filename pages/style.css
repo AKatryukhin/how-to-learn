@@ -16,7 +16,13 @@
 @import url(../blocks/two-columns/__paragraph/two-columns__paragraph.css);
 @import url(../blocks/two-columns/__paragraph/_last-child/two-columns__paragraph_last-child.css);
 @import url(../blocks/two-columns/__span-accent/two-columns__span-accent.css);
-
+@import url(../blocks/digits/digits.css);
+@import url(../blocks/section-title/section-title.css);
+@import url(../blocks/section-subtitle/section-subtitle.css);
+@import url(../blocks/table/table.css);
+@import url(../blocks/table/__cell/table__cell.css);
+@import url(../blocks/table/__heading/table__heading.css);
+@import url(../blocks/table/__text/table__text.css);
 
 
 @keyframes rotation {
@@ -26,66 +32,6 @@
   to {
       transform: rotate(360deg);
   }
-}
-
-.digits {
-  margin: 100px auto;
-  display: flex;
-  justify-content: center;
-  flex-direction: column;
-  align-items: center;
-}
-
-.section-title {
-  width: 60%;
-  margin: 0 auto;
-  text-align: center;
-  line-height: 1.15;
-  font-size: 60px;
-  font-weight: 700;
-}
-
-.section-subtitle {
-  width: 60%;
-  margin-top: 20px;
-  margin-bottom: 0;
-  text-align: center;
-  line-height: 34px;
-  font-size: 24px;
-  font-weight: normal;
-}
-
-.table {
-  display: flex;
-  width: 1100px;
-  margin: 0 auto;
-  flex-direction: row;
-  flex-wrap: wrap;
-  justify-content: space-between;
-  padding-left: 0;
-}
-
-.table__cell {
-margin-bottom: 0;
-margin-top: 60px;
-width: 250px;
-display: flex;
-flex-direction: column;
-}
-
-.table__heading {
-margin: 0;
-line-height: 1.15;
-font-size: 24px;
-font-weight: 700;
-}
-
-.table__text {
-margin-top: 20px;
-margin-bottom: 0;
-line-height: 1.2;
-font-size: 18px;
-font-weight: normal;
 }
 
 .feynman {
