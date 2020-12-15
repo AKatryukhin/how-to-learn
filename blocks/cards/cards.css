@@ -2,9 +2,9 @@
 width: 920px;
 display: flex;
 flex-direction: row;
-justify-content: space-between;
-align-items: start;
-border: 1px solid green;
+flex-wrap: wrap;
 list-style: name;
+margin: 0 auto;
+padding: 0;
 }
 
