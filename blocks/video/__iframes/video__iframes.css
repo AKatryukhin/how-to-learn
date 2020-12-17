@@ -1,9 +1,8 @@
 .video__iframes {
-  margin: 0 auto;
+  margin: 50px auto -50px; /*убрал transform: translate, и установил отрицательный margin*/
   min-width: 1050px;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
-  transform: translate(0px, 50px);
   }

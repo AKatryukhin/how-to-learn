@@ -1,5 +1,5 @@
 @import url(../vendor/normalize.css);
-@import url(../root/root.css);
+@import url(../blocks/root/root.css); /* перенес root по БЭМ */
 @import url(../blocks/header/header.css);
 @import url(../blocks/header/__title/header__title.css);
 @import url(../blocks/header/__link/header__link.css);
