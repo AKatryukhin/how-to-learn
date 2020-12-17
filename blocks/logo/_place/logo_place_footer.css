@@ -3,4 +3,9 @@
   height: 35px;
   background-image: url(../../../images/logo/logo_place_footer.svg);
   background-repeat: no-repeat;
-  }
+  transition: opacity 0.5s linear;
+}
+
+.logo_place_footer:hover {
+opacity: 0.5;
+}
