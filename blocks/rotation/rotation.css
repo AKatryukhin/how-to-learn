@@ -7,6 +7,6 @@
   }
 }
 
-.rotation {
+.rotation::after {
   animation: rotation 20s linear infinite;
 }
