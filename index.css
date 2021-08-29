@@ -1,8 +1,8 @@
 @import url(./vendor/normalize.css);
 @import url(./blocks/page/page.css); /* перенес root по БЭМ */
 @import url(./blocks/header/header.css);
-@import url(./blocks/header/__title/header__title.css);
-@import url(./blocks/header/__link/header__link.css);
+@import url(./blocks/header/header__title.css);
+@import url(./blocks/header/header__link.css);
 @import url(./blocks/feynman/__link/feynman__link.css);
 @import url(./blocks/footer/__column-link/footer__column-link.css);
 @import url(./blocks/header/__subtitle/header__subtitle.css);
